@@ -1,0 +1,106 @@
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.topbar h1 {
+    color: rgb(52, 52, 52);
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+}
+button:hover {
+    background-color: #f1f1f1;
+}
+
+button:active {
+    background-color: #d8d8d8;
+}
+
+.newDeporte {
+    max-width: 400px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    background-color: white;
+}
+
+.newDeporte input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+}
+
+.newDeporte button {
+    margin-top: 10px;
+}
+
+.deportes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1200px;
+}
+
+/* tablets */
+@media (max-width: 768px) {
+    .deportes-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+/* celulares */
+@media (max-width: 480px) {
+    .deportes-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+
+.deporte-item {
+    padding: 1rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    background: white;
+    text-align: center;
+    max-width: 300px;
+    height: 250px;
+}
+
+.deporte-item h2 {
+    margin-bottom: 10px;
+}
+
+.deporte-item .deporte-buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deporte-item button {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,18 @@
+.deporteDetails {
+    margin: 0;
+    padding: 30px;
+    text-align: start;
+}
+
+.deporteDetails h1 {
+    color: rgb(52, 52, 52);
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.deporteDetails .description {
+    color: rgb(52, 52, 52);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
